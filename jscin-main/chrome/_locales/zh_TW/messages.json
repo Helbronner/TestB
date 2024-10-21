@@ -1,0 +1,118 @@
+{
+  "manifestName": { "message":
+    "JsCIN 中文輸入法" },
+  "manifestDesc": { "message":
+    "可用於 Google ChromeOS 的中文輸入法（與 XCIN/GCIN 表格相容）" },
+  "manifestImeName": { "message":
+    "JsCIN 中文輸入法" },
+  "manifestImeDesc": { "message":
+    "可用於 Google ChromeOS 的中文輸入法（與 XCIN/GCIN 表格相容）" },
+  "menuOptions": { "message":
+    "選項" },
+
+  "imeToggleHint": { "message":
+    "<按Shift 可切換英數輸入>" },
+
+  "optionCaption": { "message":
+    "JsCIN 輸入法選項設定" },
+  "optionInputMethodTables": { "message":
+    "管理輸入法與表格:" },
+  "optionHowToEnableTables": {"message":
+    "請拖放底下的輸入法項目以調整它們在輸入法選單中的位置(或不顯示)。 若想進一步設定請點選輸入法。" },
+  "optionEnabledTables": {"message":
+    "已啓用的輸入法:" },
+  "optionAvailableTables": {"message":
+    "其它已安裝的輸入法:" },
+  "optionAddTables": {"message":
+    "新增更多輸入法 (*.cin 或 *.gtab):" },
+  "optionAddUrl": {"message":
+    "由遠端網址(URL)新增" },
+  "optionAddFile": {"message":
+    "由已下載的檔案新增" },
+  "optionAddDrive": {"message":
+    "由 Google Drive 新增輸入法" },
+  "optionSaveToDrive": {"message":
+    "存入 Google Drive" },
+  "optionSettingChoices": {"message":
+    "輸入法類別:" },
+  "optionAddTable": {"message":
+    "新增輸入法表格" },
+  "optionAdd": {"message":
+    "新增" },
+  "optionCancel": {"message":
+    "取消" },
+  "optionBuiltin": {"message":
+    "內建" },
+  "optionTypeAuto": {"message":
+    "(自動偵測)" },
+  "optionTableDetail": {"message":
+    "輸入法詳細內容" },
+  "optionRemove": {"message":
+    "移除" },
+  "optionReload": {"message":
+    "重新載入" },
+  "optionBackupToDrive": {"message":
+    "備份到 Google Drive" },
+  "optionTableDetailNameHeader": {"message":
+    "名稱: " },
+  "optionTableDetailSourceHeader": {"message":
+    "來源: " },
+  "optionTableDetailTypeHeader": {"message":
+    "類別: " },
+  "optionQueryKeystrokes": {"message":
+    "反查此輸入法中對應的字根"},
+  "optionAreYouSure": {"message":
+    "確定要繼續嗎？" },
+
+  "optionGeneral": {"message":
+    "一般性設定" },
+  "optionSupportNonChromeOS": {"message":
+    "支援非 ChromeOS 的環境" },
+  "optionPunctuations": {"message":
+    "支援快速輸入中文標點符號 (Ctrl + ,.';[]...) " },
+  "optionRelatedText": {"message":
+    "支援聯想字 (按 Shift + 選擇鍵)"},
+  "optionAlertChangeSupportNonChromeOS": {"message":
+    "更改此設定要到下次重新開啟 Chrome 瀏覽器才會完全生效。" },
+  "optionAlert": {"message":
+    "注意!" },
+  "optionOK": {"message":
+    "確定" },
+
+  "optionDebug": {"message":
+    "除錯與開發" },
+  "optionDebugMessage": {"message":
+    "印出除錯訊息" },
+  "optionSelectDefaultInputModule": {"message":
+    "選擇預設通用輸入模組:" },
+  "optionSandbox": {"message":
+    "內部測試工具:" },
+  "optionReloadExtensionOrRestart": {"message":
+    "請重新載入 Extension 或重開瀏覽器。" },
+
+  "crossQueryAuxText": {"message":
+    "反查: "},
+
+  "tableStatusURLisEmpty": {"message":
+    "空白網址無法下載。" },
+  "tableStatusStillDownloadingName": {"message":
+    "仍在下載 <$1>..." },
+  "tableStatusDownloadingName": {"message":
+    "下載 <$1>..." },
+  "tableStatusDownloadingNamePct": {"message":
+    "下載 <$1>: $2%" },
+  "tableStatusDownloadingNameBytes": {"message":
+    "下載 <$1>: $2 位元組..." },
+  "tableStatusDownloadedParseName": {"message":
+    "已下載完成 <$1>, 開始分析..." },
+  "tableStatusDownloadFailNameStatus": {"message":
+    "無法下載  <$1>.  訊息: $2" },
+   "tableStatusNotAdded": {"message":
+     "未載入輸入法表格。" },
+   "tableStatusAddedName": {"message":
+     "成功新增輸入法: $1" },
+   "tableStatusFailedParsingMsg": {"message":
+     "無法分析檔案: $1" },
+
+  "dummy": {"message": "" }
+}

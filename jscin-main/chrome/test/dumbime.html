@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Dumb IME</title>
+    <script type="module" src="dumbime.js"></script>
+    <style type='text/css'>
+    body { font-size: 100%; font-family: monospace; padding: 1em; background: white;}
+    * { font-size: 16pt; };
+    </style>
+  </head>
+  <body>
+   <H2>Please first click onActivate, onFocus, then type in the "Input here":</H1>
+   <table>
+    <tr><td><input type='button' id = 'onActivate' value='onActivate'>
+        <td><input type='button' id = 'onFocus' value='onFocus' disabled='true'></tr>
+    <tr><td>Input here
+        <td><input id='input' type='text' disabled="disabled" title="Please click onActivate first!"></tr>
+    <tr><td>Committed
+        <td><input id='committed' type='text' disabled='true'></tr>
+    <tr><td>Composition
+        <td><input id='composition' type='text' disabled='true'></tr>
+    <tr><td>Candidates
+        <td><textarea id='candidates' rows="1" cols="60" disabled='true'></textarea></tr>
+   </table>
+  </body>
+</html>
